@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.sq-info{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.sq-info div{
+    padding: 20px 18px;
+    border-radius: 4px;
+    margin: 5px;
+    color: #fff;
+    background-color: rgb(0, 74, 233);
+    font-size: 18px;
+}
+
