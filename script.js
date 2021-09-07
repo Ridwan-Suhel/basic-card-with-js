@@ -33,7 +33,7 @@ let info = document.querySelector(".sq-info");
 
 
 let details = data.map(function(item){
-    return "<div>"+ item.name +" is "+ item.age+ " Years old"+"</div>";
+    return "<div>"+ item.name +" is "+ item.age+ " Year\'s old"+"</div>";
 });
 
 info.innerHTML = details.join("\n");
